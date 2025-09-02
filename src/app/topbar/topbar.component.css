@@ -12,6 +12,9 @@
   padding-top: 22px;
   padding-bottom: 22px;
   border-bottom: solid 3px var(--border-bottom);
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
 }
 #content {
   width: 1024px;
@@ -61,4 +64,25 @@
   svg {
     display: block;
   }
+}
+#dropDown_container {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+#nav_dropdown {
+  width: 100%;
+}
+#nav_content {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.dropdown_nav_link {
+  text-decoration: none;
+  color: var(--color-btn-small);
+  border: none;
+  text-decoration: none;
+  color: var();
 }
