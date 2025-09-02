@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
-import { AboutComponent } from "../about/about.component";
-import { ProjectsComponent } from "../projects/projects.component";
-import { ContactComponent } from "../contact/contact.component";
-import { FooterComponent } from "../footer/footer.component";
+import { AboutComponent } from '../about/about.component';
+import { ProjectsComponent } from '../projects/projects.component';
+import { ContactComponent } from '../contact/contact.component';
 
 @Component({
   selector: 'app-home',
-  imports: [AboutComponent, ProjectsComponent, ContactComponent, FooterComponent],
+  imports: [AboutComponent, ProjectsComponent, ContactComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css',
 })
-export class HomeComponent {
-
-}
+export class HomeComponent {}
